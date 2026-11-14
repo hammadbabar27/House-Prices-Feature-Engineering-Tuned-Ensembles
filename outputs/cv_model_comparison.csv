@@ -1,0 +1,4 @@
+Model,Mean CV RMSE,Std CV RMSE,Mean CV R2,Training time (s),Note
+Task 3 baseline: log-Ridge alpha=0.1,46140.835897485405,31859.627069600283,0.5401800306364489,4.197801699978299,Task 3 log-target Ridge; same engineered features and CV folds
+Tuned Random Forest,29619.414011807014,4711.106078169966,0.8507893263659497,21.78007219999563,Best of 4 randomized configurations; bagging ensemble
+Tuned XGBoost,27829.061003582417,3900.985166365924,0.8695084497040069,4.340853500005323,Best of 4 randomized configurations; sequential boosting ensemble
